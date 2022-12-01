@@ -135,6 +135,8 @@
 		07292244263B02F00089E810 /* KFAnimatedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFAnimatedImage.swift; sourceTree = "<group>"; };
 		185218B51CC07F8300BD58DE /* NSButtonExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButtonExtensionTests.swift; sourceTree = "<group>"; };
 		22FDCE0D2700078B0044D11E /* CPListItem+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CPListItem+Kingfisher.swift"; sourceTree = "<group>"; };
+		485ABF9B293929B4003E6BFF /* BundleCurrentCLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleCurrentCLI.swift; sourceTree = "<group>"; };
+		485ABF9E293929CA003E6BFF /* BundleCurrentPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleCurrentPlugin.swift; sourceTree = "<group>"; };
 		4B10480C216F157000300C61 /* ImageDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataProcessor.swift; sourceTree = "<group>"; };
 		4B164ACE1B8D554200768EC6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		4B3E714D1B01FEB200F5AAED /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
@@ -302,6 +304,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		485ABF9A293929B4003E6BFF /* BundleCurrentCLI */ = {
+			isa = PBXGroup;
+			children = (
+				485ABF9B293929B4003E6BFF /* BundleCurrentCLI.swift */,
+			);
+			path = BundleCurrentCLI;
+			sourceTree = "<group>";
+		};
+		485ABF9C293929CA003E6BFF /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				485ABF9D293929CA003E6BFF /* BundleCurrent */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		485ABF9D293929CA003E6BFF /* BundleCurrent */ = {
+			isa = PBXGroup;
+			children = (
+				485ABF9E293929CA003E6BFF /* BundleCurrentPlugin.swift */,
+			);
+			path = BundleCurrent;
+			sourceTree = "<group>";
+		};
 		4B8351C6217066400081EED8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +349,7 @@
 			isa = PBXGroup;
 			children = (
 				D12AB6A9215D2BB50013BA68 /* Info.plist */,
+				485ABF9A293929B4003E6BFF /* BundleCurrentCLI */,
 				D12AB6B0215D2BB50013BA68 /* General */,
 				D12AB6A2215D2BB50013BA68 /* Image */,
 				D12AB69C215D2BB50013BA68 /* Networking */,
@@ -646,6 +673,7 @@
 				D12AB688215D2A280013BA68 /* Sources */,
 				D10EC22C1C3D62E800A4211C /* Tests */,
 				D1ED2D0C1AD2CFA600CFC3EB /* Products */,
+				485ABF9C293929CA003E6BFF /* Plugins */,
 				EA99D30544BD22799F7A5367 /* Frameworks */,
 			);
 			sourceTree = "<group>";

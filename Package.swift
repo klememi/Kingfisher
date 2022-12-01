@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Kingfisher",
-    platforms: [.iOS(.v12), .macOS(.v10_14), .tvOS(.v12), .watchOS(.v5)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(name: "Kingfisher", targets: ["Kingfisher"]),
         .plugin(name: "BundleCurrent", targets: ["BundleCurrent"]),
